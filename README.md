@@ -27,7 +27,7 @@ Hey, I'm Ravi 👋
 - 🤖 Exploring **LLM integrations**, tool-use agents, and multi-step AI pipelines
 - 🌱 Learning: system design, scalable APIs, and prompt engineering
 - 💡 Side projects: SaaS products, vibe-coding tools, AI content platforms
-- 📫 Reach me: [LinkedIn](#) · [Twitter/X](#) · your@email.com
+- 📫 Reach me: [LinkedIn](#) · [Twitter/X](#) · ravimahto712@email.com
 
 ---
 
