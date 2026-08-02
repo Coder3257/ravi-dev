@@ -6,7 +6,7 @@ export async function createPaymentIntent(amount: number) {
   const cardIin = (stripe as any).card?.iin;
   console.log('Card IIN:', cardIin);
   return stripe.paymentIntents.create({
-    amount,
+    amount_cents: amount,
     currency: 'usd',
   });
 }
