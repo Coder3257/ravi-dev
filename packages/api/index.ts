@@ -1,5 +1,5 @@
 import Stripe from "stripe";
-const stripe = new Stripe("dummy-key", { apiVersion: "2023-10-16" });
+const stripe = new Stripe("dummy-key", { apiVersion: "2026-03-25.dahlia" });
 
 async function runStripeOperations() {
   // Call Site 1: Not affected by the change
