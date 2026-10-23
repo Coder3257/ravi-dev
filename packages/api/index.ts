@@ -10,7 +10,7 @@ async function runStripeOperations() {
 
   // Call Site 2: Affected by the breaking change (uses amount)
   const paymentIntent = await stripe.paymentIntents.create({
-    amount: 2000,
+    amount_cents: 2000,
     currency: "usd",
   });
   console.log("Payment Intent created:", paymentIntent.id);
