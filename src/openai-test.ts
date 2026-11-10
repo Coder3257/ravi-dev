@@ -1,15 +1,13 @@
-import { Configuration, OpenAIApi } from "openai";
+import OpenAI from "openai";
 
-const configuration = new Configuration({
+const openai = new OpenAI({
   apiKey: "dummy-key-for-test",
 });
 
-const openai = new OpenAIApi(configuration);
-
 async function callOpenAI() {
-  const response = await openai.createCompletion({
+  const response = await openai.completions.create({
     model: "text-davinci-003",
     prompt: "Say hello",
   });
-  console.log(response.data.choices[0].text);
+  console.log(response.choices[0].text);
 }
